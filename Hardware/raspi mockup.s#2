@@ -10324,7 +10324,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
 <part name="U3" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
 <part name="S6" library="SparkFun-Switches" deviceset="JOYSTICK_MINI" device=""/>
-<part name="LS1" library="SparkFun-Electromechanical" deviceset="SPEAKER" device="CVS-1508"/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
@@ -10388,6 +10387,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="U6" library="SparkFun-Displays" deviceset="KWH018ST14-F01_4WSPI" device="-BOTTOM"/>
+<part name="LS2" library="SparkFun-Electromechanical" deviceset="SPEAKER" device="CVS-1508"/>
 </parts>
 <sheets>
 <sheet>
@@ -10417,10 +10417,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S6" gate="G$1" x="160.02" y="81.28" smashed="yes">
 <attribute name="VALUE" x="149.86" y="75.946" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="149.86" y="86.614" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="LS1" gate="G$1" x="124.46" y="33.02" smashed="yes">
-<attribute name="NAME" x="119.38" y="38.354" size="1.27" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="127" y="27.686" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="H1" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
 <instance part="H2" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
@@ -10628,6 +10624,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U6" gate="G$1" x="109.22" y="111.76" smashed="yes">
 <attribute name="NAME" x="99.06" y="127.254" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="99.06" y="83.82" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="LS2" gate="G$1" x="124.46" y="33.02" smashed="yes">
+<attribute name="NAME" x="127" y="38.354" size="1.27" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="127" y="27.686" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10962,8 +10962,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$22" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SPEAKER_LN"/>
-<pinref part="LS1" gate="G$1" pin="-"/>
 <wire x1="96.52" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="LS2" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -10971,8 +10971,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U4" gate="G$1" pin="SPEAKER_LP"/>
 <wire x1="96.52" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="33.02" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="LS1" gate="G$1" pin="+"/>
 <wire x1="99.06" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="LS2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$29" class="0">

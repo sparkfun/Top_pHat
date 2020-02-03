@@ -3695,6 +3695,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D5" pad="2"/>
 <wire x1="16.423" y1="1.9" x2="12.577" y2="5.1" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="LED_DATA">
+<contactref element="D1" pad="4"/>
+<contactref element="U1" pad="32"/>
+<wire x1="57.577" y1="5.1" x2="46.47" y2="55.315" width="0" layer="19" extent="1-16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
