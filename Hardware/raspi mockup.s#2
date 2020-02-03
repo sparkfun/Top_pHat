@@ -25685,6 +25685,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="231.14" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
 <label x="233.68" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="U1" pin="D25"/>
+<wire x1="40.64" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<label x="43.18" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
