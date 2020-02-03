@@ -10928,9 +10928,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="177.8" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="U1" pin="(RX/MISO/ADC5)PA5"/>
-<wire x1="231.14" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
-<label x="233.68" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(INT0)PB2"/>
+<wire x1="231.14" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="233.68" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BTN_B" class="0">
@@ -10978,6 +10978,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="U1" pin="(RX/MISO/ADC5)PA5"/>
+<wire x1="231.14" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="233.68" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INT" class="0">
