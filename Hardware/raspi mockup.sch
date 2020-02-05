@@ -9194,13 +9194,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.9" y1="3.3" x2="-1.9" y2="-1.4" width="0.254" layer="51"/>
 <wire x1="-1.9" y1="-1.4" x2="1.9" y2="-1.4" width="0.254" layer="51"/>
 <wire x1="1.9" y1="-1.4" x2="1.9" y2="3.3" width="0.254" layer="51"/>
-<wire x1="-2" y1="0" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="2.3" x2="-2" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="-2" y1="3.4" x2="2" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="2" y1="3.4" x2="2" y2="2.3" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2" y1="0" x2="-2" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-1.1" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-2" y1="2.3" x2="-2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-2" y1="3.4" x2="2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="2" y1="3.4" x2="2" y2="2.3" width="0.254" layer="21"/>
+<wire x1="1.1" y1="-1.5" x2="2" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.185" y1="0.68" x2="-0.675" y2="0.185" width="0.3" layer="31" curve="57.004037" cap="flat"/>
 <wire x1="0.68" y1="0.185" x2="0.185" y2="0.675" width="0.3" layer="31" curve="57.004037" cap="flat"/>
 <wire x1="-0.68" y1="-0.185" x2="-0.185" y2="-0.675" width="0.3" layer="31" curve="57.004037" cap="flat"/>
@@ -9215,7 +9215,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="0" y="0" drill="0.9"/>
 <text x="0" y="3.683" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-2.34" y="3.71" radius="0.1016" width="0.2032" layer="21"/>
+<circle x="-2.34" y="3.71" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -28392,7 +28392,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="COM-14824" constant="no"/>
+<attribute name="PROD_ID" value="IC-14824" constant="no"/>
 <attribute name="VALUE" value="WM8960" constant="no"/>
 </technology>
 </technologies>
@@ -29931,6 +29931,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="LCD-16014" constant="no"/>
+<attribute name="PROD_ID1" value="CONN-14082" constant="no"/>
 <attribute name="VALUE" value="2.4&quot; TFT" constant="no"/>
 </technology>
 </technologies>
@@ -30314,7 +30315,6 @@ from the I2C bus.</text>
 </instance>
 <instance part="JP1" gate="G$1" x="71.12" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.58" y="109.22" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="73.66" y="109.22" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="J4" gate="G$1" x="99.06" y="38.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="101.6" y="33.274" size="1.778" layer="96" font="vector" rot="MR0"/>
