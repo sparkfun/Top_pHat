@@ -6538,7 +6538,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" value="CVS-1508" x="68" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Displays" package="FPC05040-17204" value="2.4&quot; TFT" x="19" y="28.9" smashed="yes" rot="MR90">
-<attribute name="PROD_ID" value="LCD-16014" x="19" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PROD_ID" value="LCD-14913" x="19" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PROD_ID1" value="CONN-14082" x="19" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" value="2.4&quot; TFT" x="19" y="28.9" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
