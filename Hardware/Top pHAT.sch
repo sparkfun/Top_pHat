@@ -7268,7 +7268,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-13790" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VALUE" value="Raspberry Pi Header" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8265,6 +8265,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <technology name="">
 <attribute name="PROD_ID" value="SWCH-09905"/>
 <attribute name="SF_SKU" value="COM-10063"/>
+<attribute name="VALUE" value="Joystick" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8412,6 +8413,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.635" y1="-1.905" x2="0.635" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="-0.635" y1="8.382" x2="0.635" y2="8.382" width="0.2032" layer="21"/>
 <wire x1="0" y1="9.017" x2="0" y2="7.747" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.905" x2="-0.635" y2="1.905" width="0.2032" layer="22"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.2032" layer="22"/>
+<wire x1="0.635" y1="-1.905" x2="-0.635" y2="-1.905" width="0.2032" layer="22"/>
 </package>
 </packages>
 <symbols>
@@ -29366,12 +29370,12 @@ Switches electrical signals</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-Connectors" deviceset="RASPBERRY_PI_40" device="BTM-NOHOLES" value=""/>
+<part name="U1" library="SparkFun-Connectors" deviceset="RASPBERRY_PI_40" device="BTM-NOHOLES" value="Raspberry Pi Header"/>
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL"/>
 <part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL"/>
 <part name="U2" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
 <part name="U3" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
-<part name="S6" library="SparkFun-Switches" deviceset="JOYSTICK_MINI" device=""/>
+<part name="S6" library="SparkFun-Switches" deviceset="JOYSTICK_MINI" device="" value="Joystick"/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
