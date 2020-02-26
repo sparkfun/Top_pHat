@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29470,7 +29470,7 @@ Switches electrical signals</description>
 <sheet>
 <plain>
 <text x="348.742" y="11.43" size="2.54" layer="94" font="vector">Andy England</text>
-<text x="71.12" y="198.12" size="2.54" layer="97" font="vector">Screen</text>
+<text x="165.1" y="187.96" size="2.54" layer="97" font="vector">Screen</text>
 <text x="2.54" y="274.32" size="2.54" layer="97" font="vector">40-Pin Raspberry Pi Connector</text>
 <text x="2.54" y="109.22" size="2.54" layer="97" font="vector">Audio Codec</text>
 <text x="279.4" y="109.22" size="2.54" layer="97" font="vector">Microphones</text>
@@ -29713,15 +29713,15 @@ from the I2C bus.</text>
 <attribute name="NAME" x="137.16" y="58.674" size="1.27" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="137.16" y="48.006" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="J3" gate="G$1" x="109.22" y="175.26" smashed="yes">
-<attribute name="NAME" x="99.06" y="185.928" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="99.06" y="165.1" size="1.778" layer="96" font="vector"/>
+<instance part="J3" gate="G$1" x="223.52" y="147.32" smashed="yes">
+<attribute name="NAME" x="213.36" y="157.988" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="213.36" y="137.16" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="93.98" y="193.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="93.98" y="195.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="208.28" y="165.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="208.28" y="167.894" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="91.44" y="165.1" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="91.44" y="164.846" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND9" gate="1" x="205.74" y="137.16" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="205.74" y="136.906" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="205.74" y="7.62" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="205.74" y="7.62" smashed="yes"/>
@@ -29731,12 +29731,12 @@ from the I2C bus.</text>
 <instance part="FD2" gate="G$1" x="421.64" y="20.32" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="421.64" y="17.78" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="424.18" y="17.78" smashed="yes"/>
-<instance part="R4" gate="G$1" x="139.7" y="185.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="138.176" y="185.42" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="141.224" y="185.42" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="254" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="252.476" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="255.524" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="139.7" y="193.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="139.7" y="195.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="254" y="165.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="254" y="167.894" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="Y1" gate="G$1" x="45.72" y="33.02" smashed="yes">
 <attribute name="NAME" x="38.1" y="38.354" size="1.778" layer="95" font="vector"/>
@@ -29749,9 +29749,9 @@ from the I2C bus.</text>
 <instance part="GND10" gate="1" x="25.4" y="22.86" smashed="yes">
 <attribute name="VALUE" x="25.4" y="22.606" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Q2" gate="G$1" x="86.36" y="182.88" smashed="yes" rot="MR180">
-<attribute name="NAME" x="83.82" y="187.96" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="81.28" y="162.56" size="1.778" layer="96" font="vector" rot="MR90"/>
+<instance part="Q2" gate="G$1" x="200.66" y="154.94" smashed="yes" rot="MR180">
+<attribute name="NAME" x="198.12" y="160.02" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="195.58" y="134.62" size="1.778" layer="96" font="vector" rot="MR90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -29951,19 +29951,19 @@ from the I2C bus.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="93.98" y1="193.04" x2="93.98" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="165.1" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="VCC"/>
-<wire x1="93.98" y1="190.5" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="182.88" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="190.5" x2="88.9" y2="190.5" width="0.1524" layer="91"/>
-<junction x="93.98" y="190.5"/>
+<wire x1="208.28" y1="162.56" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<junction x="208.28" y="162.56"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="88.9" y1="187.96" x2="88.9" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="193.04" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="254" y1="165.1" x2="254" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -30092,12 +30092,12 @@ from the I2C bus.</text>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="LEDK"/>
-<wire x1="96.52" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="GND"/>
-<wire x1="91.44" y1="177.8" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="170.18" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="170.18" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
-<junction x="91.44" y="170.18"/>
+<wire x1="205.74" y1="149.86" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<junction x="205.74" y="142.24"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -30595,8 +30595,8 @@ from the I2C bus.</text>
 <net name="SCK" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="SCK"/>
-<wire x1="121.92" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
-<label x="124.46" y="177.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
+<label x="238.76" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="SCK/D11"/>
@@ -30612,12 +30612,12 @@ from the I2C bus.</text>
 <net name="!CS" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="CS"/>
-<wire x1="121.92" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
-<label x="139.7" y="172.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
+<label x="254" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="175.26" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="180.34" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
-<junction x="139.7" y="175.26"/>
+<wire x1="254" y1="147.32" x2="254" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="254" y1="152.4" x2="254" y2="147.32" width="0.1524" layer="91"/>
+<junction x="254" y="147.32"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="CS/D8"/>
@@ -30633,8 +30633,8 @@ from the I2C bus.</text>
 <net name="D/C" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="D/C"/>
-<wire x1="121.92" y1="172.72" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
-<label x="124.46" y="172.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
+<label x="238.76" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="D24"/>
@@ -30650,8 +30650,8 @@ from the I2C bus.</text>
 <net name="SDI" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="SDI"/>
-<wire x1="121.92" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
-<label x="124.46" y="182.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
+<label x="238.76" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="MOSI/D10"/>
@@ -30667,8 +30667,8 @@ from the I2C bus.</text>
 <net name="SDO" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="SDO"/>
-<wire x1="121.92" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
-<label x="124.46" y="170.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
+<label x="238.76" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="MISO/D9"/>
@@ -30684,8 +30684,8 @@ from the I2C bus.</text>
 <net name="!RST_SCREEN" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="RESET"/>
-<wire x1="121.92" y1="180.34" x2="124.46" y2="180.34" width="0.1524" layer="91"/>
-<label x="124.46" y="180.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
+<label x="238.76" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="D23"/>
@@ -30701,8 +30701,8 @@ from the I2C bus.</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="LEDA"/>
-<wire x1="96.52" y1="175.26" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="177.8" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="149.86" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -30718,8 +30718,8 @@ from the I2C bus.</text>
 <net name="!BKLITE" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="81.28" y1="185.42" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
-<label x="78.74" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
+<label x="193.04" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="D22"/>
