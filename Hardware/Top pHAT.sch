@@ -29439,7 +29439,6 @@ Switches electrical signals</description>
 <part name="J3" library="SparkFun-Displays" deviceset="4DLCD-24-320X240" device="" value="2.4&quot; TFT"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".4_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -29727,7 +29726,6 @@ from the I2C bus.</text>
 <instance part="GND9" gate="1" x="205.74" y="137.16" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="205.74" y="136.906" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="205.74" y="7.62" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="205.74" y="7.62" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="231.14" y="7.62" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="190.5" y="12.7" smashed="yes"/>
