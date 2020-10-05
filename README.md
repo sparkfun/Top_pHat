@@ -2,6 +2,7 @@ SparkFun Top pHAT for Raspberry Pi
 ========================================
 
 [![SparkFun Top pHAT for Raspberry Pi](https://cdn.sparkfun.com//assets/parts/1/5/5/4/0/16653-SparkFun_Top_pHAT_for_Raspberry_Pi-01.jpg)](https://www.sparkfun.com/products/16653)
+
 [*SparkFun Top pHAT for Raspberry Pi (DEV-16653)*](https://www.sparkfun.com/products/16653)
 
 The Top pHAT for Raspberry Pi is a pHAT that includes a 2.4" TFT Display connected to SPI, a WM8960 Audio Codec connected to I2S with stereo microphones and a single speaker, 6 WS2812 LED's, along with buttons and a joystick that are attached to an ATTiny that controls button presses and lives on the I2C Bus. This board is perfect for your next machine learning project with it's audio and display capabilities.
