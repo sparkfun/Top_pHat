@@ -30722,9 +30722,9 @@ from the I2C bus.</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="CS"/>
 <wire x1="236.22" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
-<label x="254" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="256.54" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="254" y1="147.32" x2="254" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="254" y1="147.32" x2="256.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="254" y1="152.4" x2="254" y2="147.32" width="0.1524" layer="91"/>
 <junction x="254" y="147.32"/>
 </segment>

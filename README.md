@@ -7,6 +7,10 @@ SparkFun Top pHAT for Raspberry Pi
 
 The Top pHAT for Raspberry Pi is a pHAT that includes a 2.4" TFT Display connected to SPI, a WM8960 Audio Codec connected to I2S with stereo microphones and a single speaker, 6 WS2812 LED's, along with buttons and a joystick that are attached to an ATTiny that controls button presses and lives on the I2C Bus. This board is perfect for your next machine learning project with it's audio and display capabilities.
 
+The ATTiny is programmed with the Qwiic Button Firmware. For source code, fuse settings and more information please see that products repo here:
+
+[https://github.com/sparkfun/Qwiic_Button](https://github.com/sparkfun/Qwiic_Button)
+
 Repository Contents
 -------------------
 
