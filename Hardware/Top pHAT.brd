@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -6723,9 +6723,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D4" pad="1"/>
 <contactref element="D5" pad="1"/>
 <contactref element="D6" pad="1"/>
-<wire x1="52.423" y1="5.1" x2="52.423" y2="6.577" width="0.1778" layer="1"/>
-<wire x1="52.423" y1="6.577" x2="52" y2="7" width="0.1778" layer="1"/>
-<wire x1="52" y1="7" x2="43.4" y2="7" width="0.1778" layer="1"/>
+<wire x1="52.423" y1="5.1" x2="52.423" y2="6.958" width="0.1778" layer="1"/>
+<wire x1="52.423" y1="6.958" x2="52.381" y2="7" width="0.1778" layer="1"/>
+<wire x1="52.381" y1="7" x2="43.4" y2="7" width="0.1778" layer="1"/>
 <wire x1="43.4" y1="7" x2="34.4" y2="7" width="0.1778" layer="1"/>
 <wire x1="34.4" y1="7" x2="25.4" y2="7" width="0.1778" layer="1"/>
 <wire x1="25.4" y1="7" x2="16.4" y2="7" width="0.1778" layer="1"/>
@@ -6746,7 +6746,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="16.4" y1="7" x2="7.423" y2="7" width="0.1778" layer="1"/>
 <wire x1="8.37" y1="55.315" x2="10.91" y2="55.315" width="0.1778" layer="16"/>
 <wire x1="7" y1="46" x2="7" y2="55" width="0.1778" layer="1"/>
-<wire x1="52" y1="7" x2="53.5" y2="7" width="0.1778" layer="1"/>
+<wire x1="52.381" y1="7" x2="53.5" y2="7" width="0.1778" layer="1"/>
 <via x="53.5" y="7" extent="1-16" drill="0.381"/>
 <wire x1="53.5" y1="7" x2="53.5" y2="20.45" width="0.1778" layer="16"/>
 <wire x1="68.05" y1="35" x2="68.15" y2="35" width="0.1778" layer="16"/>
@@ -7491,10 +7491,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J3" pad="32"/>
 <contactref element="U1" pad="24"/>
 <wire x1="19.6" y1="34.65" x2="23.75" y2="34.65" width="0.1778" layer="16"/>
-<wire x1="36.885" y1="55.315" x2="36.31" y2="55.315" width="0.1778" layer="16"/>
+<wire x1="37.393" y1="55.315" x2="36.31" y2="55.315" width="0.1778" layer="16"/>
 <wire x1="23.75" y1="34.65" x2="37.55" y2="48.45" width="0.1778" layer="16"/>
 <wire x1="37.55" y1="48.45" x2="37.55" y2="54.65" width="0.1778" layer="16"/>
-<wire x1="37.55" y1="54.65" x2="36.885" y2="55.315" width="0.1778" layer="16"/>
+<wire x1="37.55" y1="54.65" x2="37.55" y2="55.158" width="0.1778" layer="16"/>
+<wire x1="37.55" y1="55.158" x2="37.393" y2="55.315" width="0.1778" layer="16"/>
 <contactref element="R4" pad="1"/>
 <wire x1="37.55" y1="53.35" x2="37.55" y2="54.65" width="0.1778" layer="1"/>
 <via x="37.55" y="54.65" extent="1-16" drill="0.381"/>
